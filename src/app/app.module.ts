@@ -7,6 +7,7 @@ import { StudentEntryComponent } from './student-entry/student-entry.component';
 import { StudentViewComponent } from './student-view/student-view.component';
 import { StudentSearchComponent } from './student-search/student-search.component';
 import { Routes, RouterModule } from '@angular/router';
+import { NavbarComponent } from './navbar/navbar.component';
 
 const myRoute : Routes= [
  {
@@ -26,7 +27,8 @@ const myRoute : Routes= [
     AppComponent,
     StudentEntryComponent,
     StudentViewComponent,
-    StudentSearchComponent
+    StudentSearchComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
