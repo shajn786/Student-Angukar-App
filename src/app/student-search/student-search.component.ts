@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class StudentSearchComponent {
 
+  admno=""
+
+  search=()=>
+  {
+    let data:any={"admno":this.admno}
+
+    console.log(data)
+  }
+
 }
